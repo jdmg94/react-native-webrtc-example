@@ -13,13 +13,13 @@ As it is also required on the Web Standard, RTC technologies require a broker to
 
 ## Usage
 
-First you need to start the signaling server so we can handle the peer activity, you can do this by running `cd ./backend && npm install && npm start` on a terminal window located at the project's path.
+First you need to start the signaling server so we can handle the peer activity, you can do this by running `cd ./backend && npm install && npm start` on a terminal window located at the project's root.
 
 Once you have the signaling server up you need to launch the client app and the process is a little different for each platform. For the best DX you should use a real device.
 
 ### Android 
 
-For Android the setup has been tweaked for `react-native^0.60` and if you want to replicate this on your own project you should take a look at the following files to extrapolate the config:
+The setup has been tweaked for `react-native^0.60` and if you want to replicate this on your own project, for Android, you should take a look at the following files to extrapolate the config:
 
 -  `./android/settings.graddle`
 -  `./android/graddle.properties`
