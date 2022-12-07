@@ -4,7 +4,7 @@
   "description": "a proof of concept webrtc signaling broker",
   "main": "src/index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {},
